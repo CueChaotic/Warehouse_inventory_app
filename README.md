@@ -50,20 +50,21 @@ terminal:
    
     git clone https://github.com/CueChaotic/Warehouse_inventory_app.git
 
-2.4 A new directory called **Warehouse_inventory_app** should now appear within your current directory.
+2.4 A new directory called **Warehouse_inventory_app** should now appear within your current
+directory.
 
 2.5 Set up and activate a Virtual Environment as follows:
 
 * For **Windows** systems, enter the below command in your terminal, in the current directory:
-        ```
-        python -m venv projenv
-        ```
-
+    ```
+    python -m venv projenv
+    ```
 * For **MacOS** and **Linux** systems, enter the below:
-        ```
-        python3 -m venv projenv
-        ```
+    ```
+    python3 -m venv projenv
+    ```
 This will create a virtual environment directory called "projenv".
+
 * Activate your virtual environment as follows, depending on your terminal:
     * **Command Prompt (Windows)**:
         ```
@@ -78,11 +79,12 @@ This will create a virtual environment directory called "projenv".
         source projenv/bin/activate
         ```
     Your environment should now be activated.
-    NOTE: The virtual env needs to be active as it contains the necessary module(s) to run the
+    **NOTE**: The virtual env needs to be active as it contains the necessary module(s) to run the
     program. Once you are finished running the program, you can deactivate the virtual env by
     running the below in your terminal:
-    
+    ```
     deactivate
+    ```
 
 2.6 Now navigate into the Warehouse_inventory_app directory in your terminal:
 
@@ -99,7 +101,7 @@ is activated beforehand (as laid out above):
 ```
 python inventory.py
 ```
-NOTE: Use python3 if on Linux or MacOS
+**NOTE**: Use python3 if on Linux or MacOS
 
 ## 4. Credits
 
