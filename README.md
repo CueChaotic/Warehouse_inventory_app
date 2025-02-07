@@ -54,18 +54,16 @@ Compatible with:
     directory.
 
 2.5 Set up and activate a Virtual Environment as follows:
-    2.5.1
-        * For **Windows** systems, enter the below command in your terminal, in the current
-        directory:
+    * For **Windows** systems, enter the below command in your terminal, in the current directory:
         ```
         python -m venv projenv
         ```
-        * For **MacOS** and **Linux** systems, enter the below:
+    * For **MacOS** and **Linux** systems, enter the below:
         ```
         python3 -m venv projenv
         ```
     This will create a virtual environment directory called "projenv".
-    2.5.2   Activate your virtual environment as follows, depending on your terminal:
+    * Activate your virtual environment as follows, depending on your terminal:
         * **Command Prompt (Windows)**:
         ```
         projenv\scripts\activate
