@@ -41,38 +41,39 @@ Compatible with:
 2.1 Ensure you already have a Python interpreter installed. You may download it from [here](https://www.python.org/downloads/).
 
 2.2 Open the Command Terminal relevant to your operating system and navigate to the directory
-    you would like to use for the app files:
-    * For Windows, this can either be Command Prompt or Windows PowerShell.
-    * For MacOS and Linux, this will be Bash.
+you would like to use for the app files:
+* For Windows, this can either be Command Prompt or Windows PowerShell.
+* For MacOS and Linux, this will be Bash.
      
 2.3 Clone this Git repository to your chosen local directory by running this command in your
-    terminal:
+terminal:
    
     git clone https://github.com/CueChaotic/Warehouse_inventory_app.git
 
-2.4 A new directory called **Warehouse_inventory_app** should now appear within your current
-    directory.
+2.4 A new directory called **Warehouse_inventory_app** should now appear within your current directory.
 
 2.5 Set up and activate a Virtual Environment as follows:
-    * For **Windows** systems, enter the below command in your terminal, in the current directory:
+
+* For **Windows** systems, enter the below command in your terminal, in the current directory:
         ```
         python -m venv projenv
         ```
-    * For **MacOS** and **Linux** systems, enter the below:
+
+* For **MacOS** and **Linux** systems, enter the below:
         ```
         python3 -m venv projenv
         ```
-    This will create a virtual environment directory called "projenv".
-    * Activate your virtual environment as follows, depending on your terminal:
-        * **Command Prompt (Windows)**:
+This will create a virtual environment directory called "projenv".
+* Activate your virtual environment as follows, depending on your terminal:
+    * **Command Prompt (Windows)**:
         ```
         projenv\scripts\activate
         ```
-        * **Windows PowerShell (Windows)**:
+    * **Windows PowerShell (Windows)**:
         ```
         .\projenv\scripts\activate
         ```
-        * **Bash (MacOS and Linux)**:
+    * **Bash (MacOS and Linux)**:
         ```
         source projenv/bin/activate
         ```
@@ -102,4 +103,4 @@ NOTE: Use python3 if on Linux or MacOS
 
 ## 4. Credits
 
-Built entirely by CueChaotic
+Built by CueChaotic
