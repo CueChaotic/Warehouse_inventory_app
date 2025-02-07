@@ -1,4 +1,4 @@
-# Warehouse_inventory_app
+# Warehouse Inventory app
 
 ## Introduction
 
