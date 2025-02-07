@@ -79,12 +79,13 @@ This will create a virtual environment directory called "projenv".
         source projenv/bin/activate
         ```
     Your environment should now be activated.
+
     **NOTE**: The virtual env needs to be active as it contains the necessary module(s) to run the
     program. Once you are finished running the program, you can deactivate the virtual env by
     running the below in your terminal:
-    ```
-    deactivate
-    ```
+        ```
+        deactivate
+        ```
 
 2.6 Now navigate into the Warehouse_inventory_app directory in your terminal:
 
@@ -101,6 +102,7 @@ is activated beforehand (as laid out above):
 ```
 python inventory.py
 ```
+
 **NOTE**: Use python3 if on Linux or MacOS
 
 ## 4. Credits
